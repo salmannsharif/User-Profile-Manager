@@ -12,10 +12,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.util.Base64;
 
 @Service
 public class UserProfileServiceImpl implements UserProfileService {
@@ -23,12 +22,13 @@ public class UserProfileServiceImpl implements UserProfileService {
     private static final Logger logger = LoggerFactory.getLogger(UserProfileServiceImpl.class);
     private final UserProfileRepository repository;
     private final ObjectMapper objectMapper;
+    private final PasswordEncoder passwordEncoder;
 
-    public UserProfileServiceImpl(UserProfileRepository repository, ObjectMapper objectMapper ) {
+    public UserProfileServiceImpl(UserProfileRepository repository, ObjectMapper objectMapper, PasswordEncoder passwordEncoder) {
         this.repository = repository;
         this.objectMapper = objectMapper;
+        this.passwordEncoder = passwordEncoder;
     }
-
 
     @Override
     public UserProfileResponse createProfile(String profileJson, MultipartFile image) throws Exception {
@@ -51,7 +51,7 @@ public class UserProfileServiceImpl implements UserProfileService {
         UserProfile profile = new UserProfile();
         profile.setName(request.getName());
         profile.setEmail(request.getEmail());
-        profile.setPassword(hashedPassword(request.getPassword()));
+        profile.setPassword(passwordEncoder.encode(request.getPassword())); // Use BCrypt
         profile.setAddress(request.getAddress());
 
         if (image != null && !image.isEmpty()) {
@@ -100,7 +100,7 @@ public class UserProfileServiceImpl implements UserProfileService {
         UserProfile profile = new UserProfile();
         profile.setName(request.getName());
         profile.setEmail(request.getEmail());
-        profile.setPassword(hashedPassword("default_password")); // Placeholder password
+        profile.setPassword(passwordEncoder.encode("default_password")); // Use BCrypt
         profile.setAddress(null);
 
         UserProfile savedProfile = repository.save(profile);
@@ -134,7 +134,7 @@ public class UserProfileServiceImpl implements UserProfileService {
 
         existingProfile.setName(request.getName());
         existingProfile.setEmail(request.getEmail());
-        existingProfile.setPassword(hashedPassword(request.getPassword()));
+        existingProfile.setPassword(passwordEncoder.encode(request.getPassword())); // Use BCrypt
         existingProfile.setAddress(request.getAddress());
 
         if (image != null && !image.isEmpty()) {
@@ -299,10 +299,6 @@ public class UserProfileServiceImpl implements UserProfileService {
 
         repository.delete(profile);
         logger.info("Profile deleted with ID: {}", id);
-    }
-
-    public String hashedPassword(String password){
-        return Base64.getEncoder().encodeToString(password.getBytes());
     }
 
     private void validateImage(MultipartFile image) {
