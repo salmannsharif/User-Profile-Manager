@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class TokenManager {
 
     private final long REFRESH_TOKEN_EXPIRATION = 1000L * 60 * 4; // 4 minutes
-    private final long EXPIRATION_DATE = 1000L * 60 * 2; // 2 minutes
+    private final long EXPIRATION_DATE = 1000L * 60 * 60 * 5; // 5 Hours
 
     @Value("${jwt.secret}")
     private String jwtSecret;

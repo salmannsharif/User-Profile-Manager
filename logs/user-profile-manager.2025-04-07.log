@@ -1,0 +1,980 @@
+2025-04-07 00:22:06 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m2s660ms808µs100ns).
+2025-04-07 00:57:14 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m6s500ms47µs300ns).
+2025-04-07 01:29:59 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m46s54ms720µs100ns).
+2025-04-07 02:02:35 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s650ms909µs700ns).
+2025-04-07 02:47:18 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m42s223ms774µs100ns).
+2025-04-07 03:29:13 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m53s762ms754µs700ns).
+2025-04-07 04:11:40 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m55s588ms875µs).
+2025-04-07 04:46:42 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m31s129ms718µs400ns).
+2025-04-07 05:19:50 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s711ms342µs100ns).
+2025-04-07 05:50:39 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s13ms685µs200ns).
+2025-04-07 06:33:51 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m10s243ms981µs900ns).
+2025-04-07 07:12:35 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m14s76ms642µs200ns).
+2025-04-07 07:51:51 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m15s493ms355µs500ns).
+2025-04-07 08:31:24 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m2s364ms248µs300ns).
+2025-04-07 09:03:12 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m47s212ms417µs800ns).
+2025-04-07 11:03:31 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 11:03:31 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 11:03:31 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:03:31 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 11:03:31 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 11:03:35 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 11:03:35 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 13704 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 11:03:35 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 11:03:35 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 11:03:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 11:03:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2025-04-07 11:03:36 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 11:03:36 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:03:36 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 11:03:36 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 11:03:37 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 11:03:37 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1323 ms
+2025-04-07 11:03:37 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 11:03:37 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 11:03:37 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 11:03:37 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 11:03:37 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 11:03:37 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49631cfb
+2025-04-07 11:03:37 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 11:03:37 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 11:03:37 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 11:03:38 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 11:03:38 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:03:38 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 11:03:39 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:03:39 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 11:03:39 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 4.229 seconds (process running for 4.914)
+2025-04-07 11:03:45 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 11:03:45 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 11:03:45 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:03:45 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 11:03:45 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 11:04:55 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 11:04:55 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 14944 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 11:04:55 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 11:04:55 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 11:04:55 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 11:04:55 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2025-04-07 11:04:56 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 11:04:56 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:04:56 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 11:04:56 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 11:04:56 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 11:04:56 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1008 ms
+2025-04-07 11:04:56 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 11:04:56 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 11:04:56 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 11:04:56 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 11:04:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 11:04:57 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43deba42
+2025-04-07 11:04:57 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 11:04:57 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 11:04:57 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 11:04:57 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 11:04:57 WARN  [main] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-04-07 11:04:57 WARN  [main] o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uktcks72p02h4dp13cbhxne17ad" of relation "user_profile" does not exist, skipping
+2025-04-07 11:04:57 WARN  [main] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-04-07 11:04:57 WARN  [main] o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk1oqbl7n3tb56icm9up994yl9p" of relation "user_profile" does not exist, skipping
+2025-04-07 11:04:57 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:04:58 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 11:04:58 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:04:58 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 11:04:58 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.573 seconds (process running for 4.057)
+2025-04-07 11:06:18 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 11:06:18 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 11:06:18 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-07 11:06:18 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON: {"name": "Salman Sharif", "email": "salman.sharif@example.com", "password": "salman123", "address": "123 Main St"}
+2025-04-07 11:06:19 DEBUG [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:06:19 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 1
+2025-04-07 11:07:27 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profile with ID: 1
+2025-04-07 11:09:12 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Fetching profile with ID: 1
+2025-04-07 11:12:05 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 11:12:05 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 11:12:05 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:12:05 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 11:12:05 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 11:12:09 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 11:12:09 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 11532 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 11:12:09 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 11:12:09 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 11:12:10 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 11:12:10 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2025-04-07 11:12:10 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 11:12:10 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:12:10 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 11:12:10 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 11:12:10 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 11:12:10 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1122 ms
+2025-04-07 11:12:10 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 11:12:11 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 11:12:11 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 11:12:11 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 11:12:11 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 11:12:11 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e154848
+2025-04-07 11:12:11 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 11:12:11 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 11:12:11 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 11:12:12 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 11:12:12 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:12:12 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 11:12:13 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:12:13 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 11:12:13 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.854 seconds (process running for 4.308)
+2025-04-07 11:12:53 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 11:12:53 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 11:12:53 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-07 11:12:53 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON: {"name": "Imran Sharif", "email": "imran.sharif@example.com", "password": "imran123", "address": "123 Main St"}
+2025-04-07 11:12:53 DEBUG [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:12:53 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 2
+2025-04-07 11:13:37 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON: {"name": "Joe Prabu", "email": "joe.prabu@example.com", "password": "joe123", "address": "123 Main St"}
+2025-04-07 11:13:37 DEBUG [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:13:37 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 3
+2025-04-07 11:14:55 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Anu Sharma", "email": "anu.sharma@example.com", "password": "anu@456", "address": "45 Lake View"}
+2025-04-07 11:14:55 DEBUG [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:14:55 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 4
+2025-04-07 11:15:27 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Ravi Kumar", "email": "ravi.kumar@example.com", "password": "ravi@789", "address": "78 River Road"}
+2025-04-07 11:15:27 DEBUG [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/png, Extension: png
+2025-04-07 11:15:27 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 5
+2025-04-07 11:15:39 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Priya Nair", "email": "priya.nair@example.com", "password": "priya1234", "address": "9 Palm Street"}
+2025-04-07 11:15:39 DEBUG [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/png, Extension: png
+2025-04-07 11:15:39 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 6
+2025-04-07 11:15:57 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "John Mathew", "email": "john.mathew@example.com", "password": "john_321", "address": "321 Ocean Ave"}
+2025-04-07 11:15:57 DEBUG [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/gif, Extension: gif
+2025-04-07 11:16:13 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "John Mathew", "email": "john.mathew@example.com", "password": "john_321", "address": "321 Ocean Ave"}
+2025-04-07 11:16:13 DEBUG [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:16:13 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 7
+2025-04-07 11:16:22 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Meera Raj", "email": "meera.raj@example.com", "password": "meera567", "address": "56 Hill Top"}
+2025-04-07 11:16:22 DEBUG [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:16:22 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 8
+2025-04-07 11:16:30 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Karan Joshi", "email": "karan.joshi@example.com", "password": "karan987", "address": "100 Green Valley"}
+2025-04-07 11:16:31 DEBUG [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:16:31 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 9
+2025-04-07 11:16:41 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Latha Mani", "email": "latha.mani@example.com", "password": "latha321", "address": "10 Lotus Garden"}
+2025-04-07 11:16:41 DEBUG [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:16:41 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 10
+2025-04-07 11:16:48 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:  {"name": "Vikram Das", "email": "vikram.das@example.com", "password": "vikram@007", "address": "77 Mountain View"}
+2025-04-07 11:16:48 DEBUG [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:16:48 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 11
+2025-04-07 11:16:56 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Sneha Roy", "email": "sneha.roy@example.com", "password": "sneha456", "address": "88 Blossom Lane"}
+2025-04-07 11:16:56 DEBUG [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:16:56 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 12
+2025-04-07 11:17:03 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Arjun Rao", "email": "arjun.rao@example.com", "password": "arjunpass", "address": "15 Sunset Blvd"}
+2025-04-07 11:17:03 DEBUG [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:17:03 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 13
+2025-04-07 11:17:11 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Nisha Kaur", "email": "nisha.kaur@example.com", "password": "nisha@123", "address": "19 Amber Street"}
+2025-04-07 11:17:11 DEBUG [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:17:11 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 14
+2025-04-07 11:17:23 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Manoj Pillai", "email": "manoj.pillai@example.com", "password": "manojpwd", "address": "6 Park Avenue"}
+2025-04-07 11:17:23 DEBUG [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:17:23 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 15
+2025-04-07 11:17:29 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:  {"name": "Divya Shetty", "email": "divya.shetty@example.com", "password": "divya789", "address": "2 Harmony Road"}
+2025-04-07 11:17:29 DEBUG [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:17:29 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 16
+2025-04-07 11:17:38 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Abhay Singh", "email": "abhay.singh@example.com", "password": "abhay456", "address": "34 Maple Lane"}
+2025-04-07 11:17:38 DEBUG [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:17:38 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 17
+2025-04-07 11:17:44 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Ritu Verma", "email": "ritu.verma@example.com", "password": "ritu321", "address": "67 Spring Hill"}
+2025-04-07 11:17:44 DEBUG [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:17:44 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 18
+2025-04-07 11:17:52 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Sameer Khan", "email": "sameer.khan@example.com", "password": "sameer@654", "address": "23 Pine Street"}
+2025-04-07 11:17:52 DEBUG [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:17:52 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 19
+2025-04-07 11:18:01 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Aarti Rao", "email": "aarti.rao@example.com", "password": "aarti111", "address": "90 Cedar Grove"}
+2025-04-07 11:18:01 DEBUG [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:18:01 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 20
+2025-04-07 11:18:12 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Deepak Jain", "email": "deepak.jain@example.com", "password": "deepak007", "address": "12 Silver Cross"}
+2025-04-07 11:18:12 DEBUG [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:18:12 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 21
+2025-04-07 11:18:30 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Pooja Mehta", "email": "pooja.mehta@example.com", "password": "pooja333", "address": "98 Jasmine Way"}
+2025-04-07 11:18:30 DEBUG [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 11:18:30 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 22
+2025-04-07 11:22:43 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Pooja Mehta", "email": "pooja.mehta@example.com", "password": "pooja333", "address": "98 Jasmine Way"}
+2025-04-07 11:22:49 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Pooja Mehta", "email": "pooja.l@example.com", "password": "pooja333", "address": "98 Jasmine Way"}
+2025-04-07 11:22:49 DEBUG [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/gif, Extension: gif
+2025-04-07 11:23:06 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Pooja Mehta", "email": "pooja.l@example.com", "password": "pooja333", "address": "98 Jasmine Way"}
+2025-04-07 11:23:06 DEBUG [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/svg+xml, Extension: svg
+2025-04-07 11:24:37 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 11:24:37 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 11:24:37 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:24:37 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 11:24:37 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 11:28:04 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 11:28:04 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 16120 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 11:28:04 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 11:28:04 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 11:28:04 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 11:28:04 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-04-07 11:28:05 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 11:28:05 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:28:05 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 11:28:05 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 11:28:05 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 11:28:05 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
+2025-04-07 11:28:05 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 11:28:05 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 11:28:05 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 11:28:05 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 11:28:05 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 11:28:06 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a7ebe07
+2025-04-07 11:28:06 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 11:28:06 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 11:28:06 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 11:28:06 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 11:28:06 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:28:07 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 11:28:07 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:28:07 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 11:28:07 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.96 seconds (process running for 4.484)
+2025-04-07 11:29:29 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 11:29:29 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 11:29:29 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-07 11:29:29 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 0, Limit: 1
+2025-04-07 11:29:29 WARN  [http-nio-8080-exec-1] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-07 11:29:54 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 5, Limit: 10
+2025-04-07 11:30:11 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 1, Limit: 10
+2025-04-07 11:30:20 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 1, Limit: 5
+2025-04-07 11:30:52 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 5, Limit: 5
+2025-04-07 11:31:48 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 1, Limit: 5
+2025-04-07 11:31:54 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 2, Limit: 5
+2025-04-07 11:32:06 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 3, Limit: 5
+2025-04-07 11:32:12 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 4, Limit: 5
+2025-04-07 11:32:17 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 5, Limit: 5
+2025-04-07 11:32:23 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Offset: 6, Limit: 5
+2025-04-07 11:44:55 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 11:44:56 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 11:44:56 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:44:56 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 11:44:56 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 11:45:02 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 11:45:02 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 9552 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 11:45:02 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 11:45:02 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 11:45:03 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 11:45:03 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2025-04-07 11:45:03 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 11:45:03 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:45:03 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 11:45:03 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 11:45:03 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 11:45:03 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1324 ms
+2025-04-07 11:45:03 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 11:45:03 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 11:45:03 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 11:45:04 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 11:45:04 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 11:45:04 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67b5e613
+2025-04-07 11:45:04 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 11:45:04 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 11:45:04 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 11:45:05 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 11:45:05 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 11:45:05 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 11:45:06 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 11:45:06 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 11:45:06 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 4.806 seconds (process running for 5.548)
+2025-04-07 11:45:37 INFO  [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 11:45:37 INFO  [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 11:45:37 INFO  [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-07 11:45:37 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 11:45:38 WARN  [http-nio-8080-exec-5] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-07 11:46:10 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 0, Size: 5, Offset: 2, Limit: 3
+2025-04-07 11:47:13 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 1, Size: 5, Offset: 3, Limit: 2
+2025-04-07 11:47:55 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 1, Size: 5, Offset: 0, Limit: 5
+2025-04-07 11:48:03 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 11:48:27 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 2, Size: 5, Offset: 0, Limit: 5
+2025-04-07 11:48:47 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 0, Size: 5, Offset: 3, Limit: 2
+2025-04-07 11:48:59 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 0, Size: 5, Offset: 4, Limit: 2
+2025-04-07 11:49:05 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profiles - Page: 0, Size: 5, Offset: 1, Limit: 2
+2025-04-07 12:09:53 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 12:09:53 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 12:09:53 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 12:09:54 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 12:09:54 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 12:09:59 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 12:09:59 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 7956 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 12:09:59 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 12:09:59 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 12:10:00 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 12:10:00 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2025-04-07 12:10:00 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 12:10:00 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 12:10:00 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 12:10:00 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 12:10:00 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 12:10:00 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1066 ms
+2025-04-07 12:10:00 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 12:10:00 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 12:10:00 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 12:10:01 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 12:10:01 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 12:10:01 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30ffb2a6
+2025-04-07 12:10:01 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 12:10:01 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 12:10:01 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 12:10:02 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 12:10:02 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 12:10:02 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 12:10:02 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 12:10:02 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 12:10:02 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.751 seconds (process running for 4.207)
+2025-04-07 12:11:06 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 12:11:06 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 12:11:06 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-07 12:11:06 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Mamtha", "email": "mamtha.j@example.com", "password": "mamtha333", "address": "98 mamtha Way"}
+2025-04-07 12:11:06 DEBUG [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 12:11:06 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 23
+2025-04-07 12:12:14 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 12:12:14 WARN  [http-nio-8080-exec-5] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-07 12:12:58 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 2, Limit: 3
+2025-04-07 12:22:06 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 1, Limit: 5
+2025-04-07 12:24:08 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 1, Limit: 5
+2025-04-07 12:25:21 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Creating profile with JSON:   {"name": "Mamtha", "email": "mamtha.j@example.com", "password": "mamtha333", "address": "98 mamtha Way"}
+2025-04-07 12:33:50 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 12:33:50 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 12:33:51 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 12:33:51 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 12:33:51 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 12:33:54 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 12:33:55 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 8536 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 12:33:55 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 12:33:55 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 12:33:55 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 12:33:55 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2025-04-07 12:33:56 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 12:33:56 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 12:33:56 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 12:33:56 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 12:33:56 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 12:33:56 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1110 ms
+2025-04-07 12:33:56 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 12:33:56 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 12:33:56 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 12:33:56 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 12:33:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 12:33:56 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b021664
+2025-04-07 12:33:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 12:33:56 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 12:33:56 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 12:33:57 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 12:33:57 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 12:33:58 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 12:33:58 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 12:33:58 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 12:33:58 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.787 seconds (process running for 4.248)
+2025-04-07 12:35:56 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 12:35:56 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 12:35:56 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2025-04-07 12:35:56 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "Mamtha", "email": "mamtha.j@example.com", "password": "mamtha333", "address": "98 mamtha Way"}
+2025-04-07 12:36:24 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "Modi", "email": "modi.j@example.com", "password": "modi333", "address": "98 modi Way"}
+2025-04-07 12:36:24 DEBUG [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 12:36:24 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 24
+2025-04-07 12:37:28 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "Jane Doe", "email": "jane.doe@example.com"}
+2025-04-07 12:37:28 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Profile created (v2) with ID: 25
+2025-04-07 12:41:11 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "", "email": "invalid"}
+2025-04-07 12:52:28 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Attempting to update profile with ID: 25
+2025-04-07 12:52:29 DEBUG [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/png, Extension: png
+2025-04-07 12:52:29 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Profile updated for ID: 25
+2025-04-07 12:52:57 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "Jane Doe", "email": "jane.doe@example.com"}
+2025-04-07 12:52:57 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Profile created (v2) with ID: 26
+2025-04-07 12:54:55 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Attempting to update profile with ID: 26
+2025-04-07 12:54:55 ERROR [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Failed to parse profile JSON: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 46]
+2025-04-07 12:55:31 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Attempting to update profile with ID: 26
+2025-04-07 12:56:19 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Attempting to update profile with ID: 26
+2025-04-07 12:56:19 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Profile updated for ID: 26
+2025-04-07 13:29:15 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m17s190ms782µs800ns).
+2025-04-07 13:41:26 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 13:41:26 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 13:41:26 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 13:41:26 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 13:41:26 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 13:41:30 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 13:41:30 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 19268 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 13:41:30 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 13:41:30 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 13:41:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 13:41:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2025-04-07 13:41:31 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 13:41:31 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 13:41:31 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 13:41:31 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 13:41:31 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 13:41:31 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1091 ms
+2025-04-07 13:41:31 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 13:41:31 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 13:41:31 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 13:41:31 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 13:41:31 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 13:41:31 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@793cef95
+2025-04-07 13:41:31 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 13:41:31 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 13:41:32 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 13:41:32 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 13:41:32 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 13:41:33 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 13:41:33 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 13:41:33 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 13:41:33 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.4 seconds (process running for 3.848)
+2025-04-07 13:43:57 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 13:43:57 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 13:43:57 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-07 13:43:57 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 1
+2025-04-07 13:43:57 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Profile deleted with ID: 1
+2025-04-07 13:44:14 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 26
+2025-04-07 13:44:14 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Profile deleted with ID: 26
+2025-04-07 13:44:40 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 1
+2025-04-07 13:45:09 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "Jane Doe", "email": "jane.doe@example.com"}
+2025-04-07 13:45:09 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Profile created (v2) with ID: 27
+2025-04-07 13:45:34 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 27
+2025-04-07 13:45:34 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Profile deleted with ID: 27
+2025-04-07 13:51:19 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "Jane Doe", "email": "jane.doe@example.com"}
+2025-04-07 13:51:19 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Profile created (v2) with ID: 28
+2025-04-07 13:51:28 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "Jane Doe", "email": "jane.doe@example.com"}
+2025-04-07 14:20:52 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 1, Limit: 5
+2025-04-07 14:20:52 WARN  [http-nio-8080-exec-1] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-07 14:22:39 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:23:02 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 2, Limit: 3
+2025-04-07 14:25:15 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 2, Size: 10, Offset: 0, Limit: 5
+2025-04-07 14:26:01 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 2, Size: 6, Offset: 0, Limit: 5
+2025-04-07 14:26:31 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:27:20 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 5, Limit: 5
+2025-04-07 14:27:48 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 2, Limit: 3
+2025-04-07 14:27:55 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 0, Limit: 3
+2025-04-07 14:28:01 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 0, Limit: 18
+2025-04-07 14:28:20 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 18, Offset: 0, Limit: 5
+2025-04-07 14:28:39 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 8, Offset: 0, Limit: 5
+2025-04-07 14:33:32 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 10, Limit: 10
+2025-04-07 14:34:05 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 1, Size: 5, Offset: 10, Limit: 10
+2025-04-07 14:34:13 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 10, Limit: 10
+2025-04-07 14:34:31 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 1, Size: 5, Offset: 5, Limit: 10
+2025-04-07 14:34:42 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 5, Limit: 10
+2025-04-07 14:34:44 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 5, Limit: 10
+2025-04-07 14:36:07 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 2, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:36:48 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 0, Limit: 18
+2025-04-07 14:36:56 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:37:13 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 2, Limit: 5
+2025-04-07 14:37:20 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 2, Limit: 19
+2025-04-07 14:43:43 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 2, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:44:08 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 1, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:44:12 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:44:23 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:44:36 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 1, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:44:59 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 1, Size: 7, Offset: 0, Limit: 5
+2025-04-07 14:45:25 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:45:48 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 14:45:48 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 14:45:48 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 14:45:48 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 14:45:48 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 14:45:52 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 14:45:52 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 17140 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 14:45:52 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 14:45:52 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 14:45:53 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 14:45:53 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2025-04-07 14:45:53 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 14:45:53 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 14:45:53 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 14:45:53 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 14:45:53 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 14:45:53 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1185 ms
+2025-04-07 14:45:53 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 14:45:54 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 14:45:54 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 14:45:54 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 14:45:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 14:45:54 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d17914a
+2025-04-07 14:45:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 14:45:54 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 14:45:54 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 14:45:55 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 14:45:55 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 14:45:55 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 14:45:55 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 14:45:55 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 14:45:55 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.92 seconds (process running for 4.47)
+2025-04-07 14:46:00 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 14:46:00 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 14:46:00 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-07 14:46:00 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:46:01 WARN  [http-nio-8080-exec-1] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-07 14:46:13 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 10, Offset: 0, Limit: 5
+2025-04-07 14:46:28 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:46:45 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 2, Limit: 3
+2025-04-07 14:47:10 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v1) - Page: 0, Size: 5, Offset: 3, Limit: 3
+2025-04-07 14:47:20 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 14:47:20 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 14:47:20 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 14:47:20 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 14:47:20 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 14:47:23 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 14:47:23 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 13076 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 14:47:23 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 14:47:23 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 14:47:23 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 14:47:24 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2025-04-07 14:47:24 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 14:47:24 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 14:47:24 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 14:47:24 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 14:47:24 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 14:47:24 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 959 ms
+2025-04-07 14:47:24 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 14:47:24 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 14:47:24 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 14:47:24 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 14:47:24 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 14:47:24 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30ffb2a6
+2025-04-07 14:47:24 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 14:47:25 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 14:47:25 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 14:47:25 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 14:47:25 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 14:47:25 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 14:47:26 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 14:47:26 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 14:47:26 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 3.213 seconds (process running for 3.631)
+2025-04-07 14:49:58 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 14:49:58 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 14:49:58 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 64 ms
+2025-04-07 14:49:58 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Fetching profiles (v2) - Page: 0, Size: 5, Offset: 0, Limit: 5
+2025-04-07 14:49:58 WARN  [http-nio-8080-exec-1] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-07 15:02:07 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "ifan", "email": "irfan.j@example.com", "password": "ifran333", "address": "98 ifran Way"}
+2025-04-07 15:02:07 DEBUG [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 15:02:07 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 29
+2025-04-07 15:02:53 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "Tha", "email": "tha.doe@example.com"}
+2025-04-07 15:02:53 INFO  [http-nio-8080-exec-6] c.e.U.service.UserProfileServiceImpl - Profile created (v2) with ID: 30
+2025-04-07 15:03:39 INFO  [http-nio-8080-exec-7] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "ifan", "email": "irfan.j@example.com", "password": "ifran333", "address": "98 ifran Way"}
+2025-04-07 15:03:50 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "ifan", "email": "irfan1.j@example.com", "password": "ifran333", "address": "98 ifran Way"}
+2025-04-07 15:03:50 DEBUG [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/svg+xml, Extension: svg
+2025-04-07 15:06:13 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 30
+2025-04-07 15:06:13 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Profile deleted with ID: 30
+2025-04-07 15:06:24 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 28
+2025-04-07 15:06:24 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Profile deleted with ID: 28
+2025-04-07 15:06:31 INFO  [http-nio-8080-exec-4] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 52
+2025-04-07 17:00:48 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 17:00:48 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 4184 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 17:00:48 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 17:00:48 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 17:00:49 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 17:00:49 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2025-04-07 17:00:49 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 17:00:49 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 17:00:49 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 17:00:49 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 17:00:49 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 17:00:49 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1126 ms
+2025-04-07 17:00:49 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 17:00:49 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 17:00:49 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 17:00:50 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 17:00:50 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 17:00:50 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b3546a3
+2025-04-07 17:00:50 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 17:00:50 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 17:00:50 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 17:00:51 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 17:00:51 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:00:51 ERROR [main] o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\JwtRequestFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'userProfileServiceImpl' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\service\UserProfileServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'securityConfig' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'userProfileServiceImpl': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?
+2025-04-07 17:00:51 INFO  [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-07 17:00:51 WARN  [main] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+2025-04-07 17:00:51 WARN  [main] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+2025-04-07 17:00:51 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2025-04-07 17:00:51 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:00:51 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 17:00:51 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 17:00:51 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-07 17:00:51 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtRequestFilter defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\JwtRequestFilter.class]
+┌─────┐
+|  userProfileServiceImpl defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\service\UserProfileServiceImpl.class]
+↑     ↓
+|  securityConfig defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\SecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-07 17:07:11 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 17:07:11 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 18076 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 17:07:11 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 17:07:11 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 17:07:12 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 17:07:12 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2025-04-07 17:07:12 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 17:07:12 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 17:07:12 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 17:07:12 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 17:07:12 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 17:07:12 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms
+2025-04-07 17:07:12 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 17:07:13 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 17:07:13 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 17:07:13 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 17:07:13 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 17:07:13 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1aed6f0b
+2025-04-07 17:07:13 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 17:07:13 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 17:07:13 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 17:07:14 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 17:07:14 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:07:14 ERROR [main] o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\JwtRequestFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'userProfileServiceImpl' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\service\UserProfileServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'securityConfig' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'userProfileServiceImpl': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?
+2025-04-07 17:07:14 INFO  [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-07 17:07:14 WARN  [main] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+2025-04-07 17:07:14 WARN  [main] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+2025-04-07 17:07:14 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2025-04-07 17:07:14 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:07:14 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 17:07:14 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 17:07:14 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-07 17:07:14 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtRequestFilter defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\JwtRequestFilter.class]
+┌─────┐
+|  userProfileServiceImpl defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\service\UserProfileServiceImpl.class]
+↑     ↓
+|  securityConfig defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\SecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-07 17:11:52 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 17:11:53 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 22680 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 17:11:53 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 17:11:53 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 17:11:53 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 17:11:53 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2025-04-07 17:11:54 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 17:11:54 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 17:11:54 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 17:11:54 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 17:11:54 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 17:11:54 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1193 ms
+2025-04-07 17:11:54 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 17:11:54 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 17:11:54 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 17:11:54 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 17:11:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 17:11:54 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17354708
+2025-04-07 17:11:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 17:11:54 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 17:11:54 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 17:11:55 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 17:11:55 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:11:56 ERROR [main] o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\JwtRequestFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'userProfileServiceImpl' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\service\UserProfileServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'securityConfig' defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'userProfileServiceImpl': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?
+2025-04-07 17:11:56 INFO  [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-07 17:11:56 WARN  [main] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+2025-04-07 17:11:56 WARN  [main] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+2025-04-07 17:11:56 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2025-04-07 17:11:56 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:11:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 17:11:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 17:11:56 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-07 17:11:56 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtRequestFilter defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\JwtRequestFilter.class]
+┌─────┐
+|  userProfileServiceImpl defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\service\UserProfileServiceImpl.class]
+↑     ↓
+|  securityConfig defined in file [E:\poc\UserProfileManager\target\classes\com\example\UserProfileManager\security\SecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2025-04-07 17:21:42 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 17:21:42 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 23420 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 17:21:42 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 17:21:42 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 17:21:43 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 17:21:43 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-04-07 17:21:43 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 17:21:43 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 17:21:43 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 17:21:43 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 17:21:43 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 17:21:43 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1173 ms
+2025-04-07 17:21:43 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 17:21:43 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 17:21:43 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 17:21:44 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 17:21:44 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 17:21:44 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3212d853
+2025-04-07 17:21:44 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 17:21:44 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 17:21:44 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 17:21:45 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 17:21:45 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:21:45 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 17:21:45 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 17:21:45 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 17:21:45 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 4.025 seconds (process running for 4.51)
+2025-04-07 17:21:52 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 17:21:52 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 17:21:52 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-07 17:22:18 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "ifan", "email": "irfan1.j@example.com", "password": "ifran333", "address": "98 ifran Way"}
+2025-04-07 17:22:19 DEBUG [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 17:22:19 INFO  [http-nio-8080-exec-3] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 31
+2025-04-07 17:22:40 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Creating profile (v2) with JSON: {"name": "syed", "email": "syed.doe@example.com"}
+2025-04-07 17:22:40 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Profile created (v2) with ID: 32
+2025-04-07 17:23:33 INFO  [http-nio-8080-exec-8] c.e.U.service.UserProfileServiceImpl - Fetching profile (v1) with ID: 1
+2025-04-07 17:23:38 INFO  [http-nio-8080-exec-9] c.e.U.service.UserProfileServiceImpl - Fetching profile (v1) with ID: 2
+2025-04-07 17:23:54 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Attempting to delete profile with ID: 32
+2025-04-07 17:23:54 INFO  [http-nio-8080-exec-10] c.e.U.service.UserProfileServiceImpl - Profile deleted with ID: 32
+2025-04-07 17:24:14 INFO  [http-nio-8080-exec-1] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "ifan", "email": "irfan1.j@example.com", "password": "ifran333", "address": "98 ifran Way"}
+2025-04-07 17:31:48 INFO  [http-nio-8080-exec-2] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "ifan", "email": "irfan1.j@example.com", "password": "ifran333", "address": "98 ifran Way"}
+2025-04-07 17:32:09 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Creating profile (v1) with JSON:   {"name": "ifan", "email": "deen.j@example.com", "password": "deen333", "address": "98 deen Way"}
+2025-04-07 17:32:09 DEBUG [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Validating image - Content-Type: image/jpeg, Extension: jpg
+2025-04-07 17:32:09 INFO  [http-nio-8080-exec-5] c.e.U.service.UserProfileServiceImpl - Profile created with ID: 33
+2025-04-07 17:57:57 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-07 17:57:57 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-07 17:57:57 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:57:57 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-07 17:57:57 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-07 17:58:02 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-07 17:58:02 INFO  [main] c.e.U.UserProfileManagerApplication - Starting UserProfileManagerApplication using Java 22.0.1 with PID 11636 (E:\poc\UserProfileManager\target\classes started by CIPL1586 in E:\poc\UserProfileManager)
+2025-04-07 17:58:02 DEBUG [main] c.e.U.UserProfileManagerApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-07 17:58:02 INFO  [main] c.e.U.UserProfileManagerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-07 17:58:02 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 17:58:02 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2025-04-07 17:58:03 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-07 17:58:03 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 17:58:03 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 17:58:03 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 17:58:03 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 17:58:03 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1429 ms
+2025-04-07 17:58:03 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 17:58:03 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-07 17:58:03 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-07 17:58:04 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-07 17:58:04 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 17:58:04 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79f1e22e
+2025-04-07 17:58:04 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 17:58:04 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-07 17:58:04 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-07 17:58:05 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-07 17:58:05 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:58:05 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 17:58:05 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 17:58:05 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-07 17:58:05 INFO  [main] c.e.U.UserProfileManagerApplication - Started UserProfileManagerApplication in 4.318 seconds (process running for 4.951)
+2025-04-07 19:55:22 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m15s803ms711µs400ns).
+2025-04-07 20:28:41 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m47s928ms265µs100ns).
+2025-04-07 21:14:25 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m42s774ms510µs600ns).
+2025-04-07 21:48:33 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m7s962ms444µs500ns).
+2025-04-07 22:24:04 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m29s990ms884µs800ns).
+2025-04-07 22:57:56 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s555ms268µs300ns).
+2025-04-07 23:37:43 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s134ms654µs600ns).

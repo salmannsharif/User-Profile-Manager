@@ -3,7 +3,10 @@ package com.example.UserProfileManager.controller;
 import com.example.UserProfileManager.dto.UserProfileResponse;
 import com.example.UserProfileManager.dto.UserProfileSimpleResponse;
 import com.example.UserProfileManager.service.UserProfileService;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Min;
 import org.springframework.data.domain.Page;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -55,11 +58,9 @@ public class ProfileController {
 
     @GetMapping("/v1/api/profiles")
     public ResponseEntity<Page<UserProfileResponse>> getAllProfilesV1(
-            @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size,
-            @RequestParam(defaultValue = "0") int offset,
-            @RequestParam(defaultValue = "5") int limit) {
-        Page<UserProfileResponse> profiles = userProfileService.getAllProfiles(page, size, offset, limit);
+            @Valid @Min(0) @RequestParam(defaultValue = "0") int page,
+            @Valid @Min(0) @RequestParam(defaultValue = "5") int size) {
+        Page<UserProfileResponse> profiles = userProfileService.getAllProfiles(page, size);
         return new ResponseEntity<>(profiles, HttpStatus.OK);
     }
 
@@ -67,10 +68,8 @@ public class ProfileController {
     @GetMapping("/v2/api/profiles")
     public ResponseEntity<Page<UserProfileSimpleResponse>> getAllProfilesV2(
             @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size,
-            @RequestParam(defaultValue = "0") int offset,
-            @RequestParam(defaultValue = "5") int limit) {
-        Page<UserProfileSimpleResponse> profiles = userProfileService.getAllProfilesSimple(page, size, offset, limit);
+            @RequestParam(defaultValue = "5") int size) {
+        Page<UserProfileSimpleResponse> profiles = userProfileService.getAllProfilesSimple(page, size);
         return new ResponseEntity<>(profiles, HttpStatus.OK);
     }
 
@@ -97,6 +96,23 @@ public class ProfileController {
     public ResponseEntity<Void> deleteProfileV2(@PathVariable Long id) {
         userProfileService.deleteProfile(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    @GetMapping("/api/profiles/pdf")
+    public ResponseEntity<byte[]> generateUserPdf(
+            @Valid @Min(0) @RequestParam(defaultValue = "0") int page,
+            @Valid @Min(1) @RequestParam(defaultValue = "5") int size) {
+        byte[] pdfBytes = userProfileService.generateUserPdf(page, size);
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_PDF);
+        headers.set(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"users_page_" + page + "_size_" + size + ".pdf\"");
+        headers.setContentLength(pdfBytes.length);
+        headers.setCacheControl("no-store, no-cache, must-revalidate, private");
+        headers.setPragma("no-cache");
+        headers.setDate(HttpHeaders.EXPIRES, 0);
+
+        return new ResponseEntity<>(pdfBytes, headers, HttpStatus.OK);
     }
 
 }

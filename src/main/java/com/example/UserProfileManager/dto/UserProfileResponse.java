@@ -11,6 +11,15 @@ public class UserProfileResponse {
     private String email;
     private String address;
     private String image;
+    private String role;
+
+    public UserProfileResponse(Long id, String name, String email, String address, String role) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.address = address;
+        this.role = role;
+    }
 
     public UserProfileResponse(Long id, String name, String email, String address, Image image) {
         this.id = id;
@@ -39,5 +48,9 @@ public class UserProfileResponse {
 
     public String getImage() {
         return image;
+    }
+
+    public String getRole(){
+        return role;
     }
 }
