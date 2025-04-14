@@ -115,4 +115,20 @@ public class ProfileController {
         return new ResponseEntity<>(pdfBytes, headers, HttpStatus.OK);
     }
 
+    @GetMapping("api/profiles/pdf/all")
+    public ResponseEntity<byte[]> generateAllUsersPdf() {
+        byte[] pdfBytes = userProfileService.generateAllUsersPdf();
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_PDF);
+        headers.set(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"all_users.pdf\"");
+        headers.setContentLength(pdfBytes.length);
+        headers.setCacheControl("no-store, no-cache, must-revalidate, private");
+        headers.setPragma("no-cache");
+        headers.setDate(HttpHeaders.EXPIRES, 0);
+
+        return new ResponseEntity<>(pdfBytes, headers, HttpStatus.OK);
+    }
+
+
 }
