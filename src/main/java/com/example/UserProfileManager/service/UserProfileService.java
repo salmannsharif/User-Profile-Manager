@@ -19,4 +19,5 @@ public interface UserProfileService {
     void deleteProfile(Long id);
     List<UserProfileResponse> getUsersForPdf(int page, int size);
     byte[] generateUserPdf(int page, int size);
+    byte[] generateAllUsersPdf();
 }

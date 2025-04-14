@@ -7,13 +7,22 @@ import com.example.UserProfileManager.exception.ResourceNotFoundException;
 import com.example.UserProfileManager.exception.ValidationException;
 import com.example.UserProfileManager.repository.UserProfileRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.itextpdf.kernel.colors.ColorConstants;
+import com.itextpdf.kernel.geom.Rectangle;
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
+import com.itextpdf.layout.borders.SolidBorder;
 import com.itextpdf.layout.element.Cell;
+import com.itextpdf.layout.element.Div;
 import com.itextpdf.layout.element.Paragraph;
 import com.itextpdf.layout.element.Table;
+import com.itextpdf.layout.layout.LayoutArea;
+import com.itextpdf.layout.layout.LayoutResult;
+import com.itextpdf.layout.layout.RootLayoutArea;
 import com.itextpdf.layout.properties.TextAlignment;
+import com.itextpdf.layout.renderer.DivRenderer;
+import com.itextpdf.layout.renderer.DocumentRenderer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
@@ -28,6 +37,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Service
 public class UserProfileServiceImpl implements UserProfileService {
@@ -292,15 +302,18 @@ public class UserProfileServiceImpl implements UserProfileService {
     public byte[] generateUserPdf(int page, int size) {
         logger.info("Generating PDF for users - Page: {}, Size: {}", page, size);
         Page<UserProfile> profilePage = repository.findAll(PageRequest.of(page, size));
-        Map<String, Object> profileData = mapUserProfilesWithCount(profilePage);
-        List<UserProfileResponse> users = (List<UserProfileResponse>) profileData.get("users");
-        long totalUsers = (long) profileData.get("totalCount");
+        List<UserProfileResponse> users = mapUserProfiles(profilePage.get());
+        long totalUsers = profilePage.getTotalElements();
 
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         try (PdfWriter writer = new PdfWriter(baos);
              PdfDocument pdf = new PdfDocument(writer);
              Document document = new Document(pdf)) {
 
+            // Set custom renderer with border
+            document.setRenderer(new CustomDocumentRenderer(document));
+
+            // Existing content
             document.add(new Paragraph("User Profile Manager")
                     .setFontSize(18)
                     .setBold()
@@ -340,8 +353,91 @@ public class UserProfileServiceImpl implements UserProfileService {
         return baos.toByteArray();
     }
 
-    private Map<String, Object> mapUserProfilesWithCount(Page<UserProfile> profilePage) {
-        List<UserProfileResponse> users = profilePage.getContent().stream()
+    @Override
+    public byte[] generateAllUsersPdf() {
+        logger.info("Generating PDF for all users");
+        List<UserProfile> profiles = repository.findAll();
+        List<UserProfileResponse> users = mapUserProfiles(profiles.stream());
+        long totalUsers = users.size();
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        try (PdfWriter writer = new PdfWriter(baos);
+             PdfDocument pdf = new PdfDocument(writer);
+             Document document = new Document(pdf)) {
+
+            document.setRenderer(new CustomDocumentRenderer(document));
+
+            document.add(new Paragraph("User Profile Manager")
+                    .setFontSize(18)
+                    .setBold()
+                    .setTextAlignment(TextAlignment.CENTER));
+            document.add(new Paragraph("Total Users: " + totalUsers)
+                    .setFontSize(12)
+                    .setBold()
+                    .setTextAlignment(TextAlignment.CENTER));
+
+            float[] columnWidths = {1, 3, 3, 3, 2}; // S.No, Name, Email, Address, Role
+            Table table = new Table(columnWidths);
+            table.setWidth(500);
+            table.setMarginTop(20);
+
+            table.addHeaderCell(new Cell().add(new Paragraph("S.No").setBold()));
+            table.addHeaderCell(new Cell().add(new Paragraph("Name").setBold()));
+            table.addHeaderCell(new Cell().add(new Paragraph("Email").setBold()));
+            table.addHeaderCell(new Cell().add(new Paragraph("Address").setBold()));
+            table.addHeaderCell(new Cell().add(new Paragraph("Role").setBold()));
+
+            int startSerial = 1;
+            for (UserProfileResponse user : users) {
+                table.addCell(String.valueOf(startSerial++));
+                table.addCell(user.getName());
+                table.addCell(user.getEmail());
+                table.addCell(user.getAddress() != null ? user.getAddress() : "N/A");
+                table.addCell(user.getRole() != null ? user.getRole() : "N/A");
+            }
+
+            document.add(table);
+        } catch (Exception e) {
+            logger.error("Error generating PDF for all users: {}", e.getMessage());
+            throw new RuntimeException("Failed to generate PDF", e);
+        }
+
+        logger.info("PDF generated successfully for all users");
+        return baos.toByteArray();
+    }
+
+    private static class CustomDocumentRenderer extends DocumentRenderer {
+        public CustomDocumentRenderer(Document document) {
+            super(document);
+        }
+
+        @Override
+        protected LayoutArea updateCurrentArea(LayoutResult overflowResult) {
+            LayoutArea area = super.updateCurrentArea(overflowResult); // Apply margins
+            Rectangle newBBox = area.getBBox().clone();
+
+            // Apply border (10 points from edges, adjustable)
+            float[] borderWidths = {5, 5, 5, 5}; // left, top, right, bottom
+            newBBox.applyMargins(borderWidths[0], borderWidths[1], borderWidths[2], borderWidths[3], false);
+
+            // Add a background Div for the border
+            Div div = new Div()
+                    .setWidth(newBBox.getWidth())
+                    .setHeight(newBBox.getHeight())
+                    .setBorder(new SolidBorder(1)) // 1-point solid border
+                    .setBackgroundColor(ColorConstants.WHITE); // Optional: Set background if needed
+            addChild(new DivRenderer(div)); // Use DivRenderer instead of Div
+
+            // Apply padding (optional, adjustable)
+            float[] paddingWidths = {5, 5, 5, 5}; // left, top, right, bottom
+            newBBox.applyMargins(paddingWidths[0], paddingWidths[1], paddingWidths[2], paddingWidths[3], false);
+
+            return (currentArea = new RootLayoutArea(area.getPageNumber(), newBBox)); // Use RootLayoutArea
+        }
+    }
+
+    private List<UserProfileResponse> mapUserProfiles(Stream<UserProfile> profileContent) {
+        List<UserProfileResponse> users = profileContent
                 .map(profile -> new UserProfileResponse(
                         profile.getId(),
                         profile.getName(),
@@ -350,12 +446,7 @@ public class UserProfileServiceImpl implements UserProfileService {
                         profile.getRole()
                 ))
                 .collect(Collectors.toList());
-        long totalCount = profilePage.getTotalElements();
-
-        Map<String, Object> result = new HashMap<>();
-        result.put("users", users);
-        result.put("totalCount", totalCount);
-        return result;
+        return users;
     }
 
     private void validateImage(MultipartFile image) {
