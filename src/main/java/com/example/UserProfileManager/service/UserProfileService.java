@@ -17,7 +17,6 @@ public interface UserProfileService {
     UserProfileSimpleResponse getUserByIdSimple(Long id);
     UserProfileSimpleResponse createProfileSimple(String profileJson) throws Exception;
     void deleteProfile(Long id);
-    List<UserProfileResponse> getUsersForPdf(int page, int size);
     byte[] generateUserPdf(int page, int size);
     byte[] generateAllUsersPdf();
 }

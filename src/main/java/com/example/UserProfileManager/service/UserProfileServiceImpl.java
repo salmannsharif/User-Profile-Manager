@@ -283,20 +283,6 @@ public class UserProfileServiceImpl implements UserProfileService {
         logger.info("Profile deleted with ID: {}", id);
     }
 
-    @Override
-    public List<UserProfileResponse> getUsersForPdf(int page, int size) {
-        logger.info("Fetching users for PDF - Page: {}, Size: {}", page, size);
-        Page<UserProfile> profilePage = repository.findAll(PageRequest.of(page, size));
-        return profilePage.getContent().stream()
-                .map(profile -> new UserProfileResponse(
-                        profile.getId(),
-                        profile.getName(),
-                        profile.getEmail(),
-                        profile.getAddress(),
-                        profile.getRole()
-                ))
-                .collect(Collectors.toList());
-    }
 
     @Override
     public byte[] generateUserPdf(int page, int size) {
@@ -342,6 +328,7 @@ public class UserProfileServiceImpl implements UserProfileService {
                 table.addCell(user.getAddress() != null ? user.getAddress() : "N/A");
                 table.addCell(user.getRole() != null ? user.getRole() : "N/A");
             }
+
 
             document.add(table);
         } catch (Exception e) {
