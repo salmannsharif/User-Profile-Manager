@@ -24,10 +24,9 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.ByteArrayOutputStream;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Service
 public class UserProfileServiceImpl implements UserProfileService {
@@ -273,28 +272,13 @@ public class UserProfileServiceImpl implements UserProfileService {
         logger.info("Profile deleted with ID: {}", id);
     }
 
-    @Override
-    public List<UserProfileResponse> getUsersForPdf(int page, int size) {
-        logger.info("Fetching users for PDF - Page: {}, Size: {}", page, size);
-        Page<UserProfile> profilePage = repository.findAll(PageRequest.of(page, size));
-        return profilePage.getContent().stream()
-                .map(profile -> new UserProfileResponse(
-                        profile.getId(),
-                        profile.getName(),
-                        profile.getEmail(),
-                        profile.getAddress(),
-                        profile.getRole()
-                ))
-                .collect(Collectors.toList());
-    }
 
     @Override
     public byte[] generateUserPdf(int page, int size) {
         logger.info("Generating PDF for users - Page: {}, Size: {}", page, size);
         Page<UserProfile> profilePage = repository.findAll(PageRequest.of(page, size));
-        Map<String, Object> profileData = mapUserProfilesWithCount(profilePage);
-        List<UserProfileResponse> users = (List<UserProfileResponse>) profileData.get("users");
-        long totalUsers = (long) profileData.get("totalCount");
+        List<UserProfileResponse> users = mapUserProfiles(profilePage.get());
+        long totalUsers = (long) profilePage.getTotalElements();
 
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         try (PdfWriter writer = new PdfWriter(baos);
@@ -340,8 +324,8 @@ public class UserProfileServiceImpl implements UserProfileService {
         return baos.toByteArray();
     }
 
-    private Map<String, Object> mapUserProfilesWithCount(Page<UserProfile> profilePage) {
-        List<UserProfileResponse> users = profilePage.getContent().stream()
+    private List<UserProfileResponse> mapUserProfiles(Stream<UserProfile> profileContent) {
+        List<UserProfileResponse> users = profileContent
                 .map(profile -> new UserProfileResponse(
                         profile.getId(),
                         profile.getName(),
@@ -350,12 +334,7 @@ public class UserProfileServiceImpl implements UserProfileService {
                         profile.getRole()
                 ))
                 .collect(Collectors.toList());
-        long totalCount = profilePage.getTotalElements();
-
-        Map<String, Object> result = new HashMap<>();
-        result.put("users", users);
-        result.put("totalCount", totalCount);
-        return result;
+        return users;
     }
 
     private void validateImage(MultipartFile image) {
