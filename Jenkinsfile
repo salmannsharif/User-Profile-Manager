@@ -33,14 +33,43 @@ pipeline {
 stage('Run Docker Container') {
     steps {
         script {
-            // Stop & remove old container if exists, ignore errors
+            // Create Docker network if it doesn't exist
             bat '''
-            docker stop userprofilemanager || exit 0
-            docker rm userprofilemanager || exit 0
+            docker network create app-network || exit 0
             '''
-
-            // Run new container
-            bat 'docker run -d -p 8081:8081 --name userprofilemanager userprofilemanager:latest'
+            
+            // Stop & remove old containers if they exist
+            bat '''
+            docker stop userprofilemanager postgres-db || exit 0
+            docker rm userprofilemanager postgres-db || exit 0
+            '''
+            
+            // Start PostgreSQL container first
+            bat '''
+            docker run -d ^
+                --name postgres-db ^
+                --network app-network ^
+                -e POSTGRES_DB=user_profile_db ^
+                -e POSTGRES_USER=postgres ^
+                -e POSTGRES_PASSWORD=root123 ^
+                -p 5432:5432 ^
+                postgres:13
+            '''
+            
+            // Wait for PostgreSQL to be ready
+            bat 'timeout /t 20'
+            
+            // Start application container
+            bat '''
+            docker run -d ^
+                --name userprofilemanager ^
+                --network app-network ^
+                -e SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/user_profile_db ^
+                -e SPRING_DATASOURCE_USERNAME=postgres ^
+                -e SPRING_DATASOURCE_PASSWORD=root123 ^
+                -p 8081:8081 ^
+                userprofilemanager:latest
+            '''
         }
     }
 }
