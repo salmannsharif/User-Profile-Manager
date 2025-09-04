@@ -30,19 +30,21 @@ pipeline {
             }
         }
 
-        stage('Run Docker Container') {
-            steps {
-                script {
-                    // Stop old container if running
-                    bat '''
-                    docker ps -q --filter "name=userprofilemanager" | findstr . && docker stop userprofilemanager && docker rm userprofilemanager
-                    '''
+stage('Run Docker Container') {
+    steps {
+        script {
+            // Stop & remove old container if exists, ignore errors
+            bat '''
+            docker stop userprofilemanager || exit 0
+            docker rm userprofilemanager || exit 0
+            '''
 
-                    // Run new container
-                    bat "docker run -d --name userprofilemanager -p 8081:8081 %DOCKER_IMAGE%"
-                }
-            }
+            // Run new container
+            bat 'docker run -d -p 8081:8081 --name userprofilemanager userprofilemanager:latest'
         }
+    }
+}
+
     }
 
     post {
