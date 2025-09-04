@@ -1,0 +1,22 @@
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.settings/
+.classpath
+
+# Build files
+pom.xml.versionsBackup
+pom.xml.*
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
