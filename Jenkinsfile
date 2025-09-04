@@ -1,41 +1,61 @@
 pipeline {
     agent any
 
-    environment {
-        APP_NAME = "UserProfileManager"
-        JAR_NAME = "UserProfileManager-0.0.1-SNAPSHOT.jar"
-        PORT = "8081"
+    tools {
+        maven "M3"  // Make sure 'M3' is configured in Jenkins Global Tools
     }
 
     stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/salmannsharif/User-Profile-Manager.git'
+            }
+        }
+
         stage('Build') {
             steps {
-                echo "Building ${APP_NAME}..."
                 bat "mvn clean package -DskipTests"
+            }
+            post {
+                success {
+                    archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+                }
             }
         }
 
         stage('Deploy') {
             steps {
-                echo "Deploying ${APP_NAME} to port ${PORT}..."
+                echo 'Deploying Application to port 8081...'
 
-                // Kill existing process on port 8081
-                bat """
-                echo Checking for existing process on port %PORT%...
-                for /f "tokens=5" %%a in ('netstat -ano ^| findstr :%PORT%') do (
-                    echo Found process on port %PORT% with PID=%%a
+                // Step 1: Kill any existing process on port 8081
+                bat '''
+                echo Checking for existing process on port 8081...
+                for /f "tokens=5" %%a in ('netstat -ano ^| findstr :8081') do (
+                    echo Found process on port 8081 with PID=%%a
                     taskkill /PID %%a /F
                 )
-                echo No running process found on port %PORT% or already stopped.
-                """
+                echo No running process found on port 8081 or already stopped.
+                '''
 
-                // Start Spring Boot app in background
-                bat """
+                // Step 2: Start Spring Boot app (foreground, so logs are visible)
+                bat '''
                 cd target
-                echo Starting Spring Boot Application on port %PORT%...
-                start /B java -jar %JAR_NAME% --server.port=%PORT%
-                """
+                echo Starting Spring Boot Application...
+                java -jar UserProfileManager-0.0.1-SNAPSHOT.jar --server.port=8081
+                '''
             }
+        }
+    }
+
+    post {
+        success {
+            echo "✅ Pipeline succeeded! Application should be running on port 8081."
+        }
+        failure {
+            echo "❌ Pipeline failed. Check logs above for details."
+        }
+        always {
+            echo "Pipeline execution completed."
         }
     }
 }
