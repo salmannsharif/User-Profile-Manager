@@ -36,7 +36,7 @@ pipeline {
                     bat 'docker-compose up -d'
                     
                     // Wait for services to be healthy
-                    bat 'timeout /t 30'
+                    sleep time: 30, unit: 'SECONDS'
                     
                     // Verify services are running
                     bat 'docker-compose ps'
