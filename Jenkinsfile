@@ -26,15 +26,16 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying Application...'
-
-                // Kill old process running on 8081 (if any)
+        
+                // Kill process on port 8081 if running
                 bat '''
                 for /f "tokens=5" %%a in ('netstat -ano ^| findstr :8081') do taskkill /PID %%a /F
                 '''
-
-                // Start new process in background
+        
+                // Start the Spring Boot app
                 bat 'start java -jar target/UserProfileManager-0.0.1-SNAPSHOT.jar --server.port=8081'
             }
         }
+        
     }
 }
