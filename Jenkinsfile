@@ -1,30 +1,40 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/your-repo-link.git'
-            }
-        }
+    environment {
+        APP_NAME = "UserProfileManager"
+        JAR_NAME = "UserProfileManager-0.0.1-SNAPSHOT.jar"
+        PORT = "8081"
+    }
 
+    stages {
         stage('Build') {
             steps {
-                bat 'mvn clean install -DskipTests'
+                echo "Building ${APP_NAME}..."
+                bat "mvn clean package -DskipTests"
             }
         }
 
         stage('Deploy') {
             steps {
-                script {
-                    // Stop any existing process running on port 8081
-                    bat '''
-                        for /f "tokens=5" %%a in ('netstat -ano ^| findstr :8081') do taskkill /F /PID %%a
-                    '''
+                echo "Deploying ${APP_NAME} to port ${PORT}..."
 
-                    // Start the new Spring Boot app in background
-                    bat 'start /B java -jar target/UserProfileManager-0.0.1-SNAPSHOT.jar'
-                }
+                // Kill existing process on port 8081
+                bat """
+                echo Checking for existing process on port %PORT%...
+                for /f "tokens=5" %%a in ('netstat -ano ^| findstr :%PORT%') do (
+                    echo Found process on port %PORT% with PID=%%a
+                    taskkill /PID %%a /F
+                )
+                echo No running process found on port %PORT% or already stopped.
+                """
+
+                // Start Spring Boot app in background
+                bat """
+                cd target
+                echo Starting Spring Boot Application on port %PORT%...
+                start /B java -jar %JAR_NAME% --server.port=%PORT%
+                """
             }
         }
     }
