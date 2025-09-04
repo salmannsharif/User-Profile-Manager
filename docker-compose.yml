@@ -5,7 +5,7 @@ services:
     image: postgres:13
     container_name: userprofilemanager-db
     environment:
-      POSTGRES_DB: userprofiledb
+      POSTGRES_DB: user_profile_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: root123
     ports:
@@ -14,16 +14,22 @@ services:
       - postgres_data:/var/lib/postgresql/data
     networks:
       - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d user_profile_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   app:
     image: userprofilemanager:latest
     container_name: userprofilemanager-app
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/userprofiledb
-      - SPRING_DATASOURCE_USERNAME=admin
-      - SPRING_DATASOURCE_PASSWORD=password
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/user_profile_db
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=root123
     ports:
       - "8081:8081"
     networks:
