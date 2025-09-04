@@ -1,51 +1,56 @@
 pipeline {
     agent any
+
     tools {
-        maven "M3"  // Make sure 'M3' is configured in Jenkins Global Tools
+        maven "M3"   // Maven from Jenkins Global Tools
     }
+
+    environment {
+        DOCKER_IMAGE = "userprofilemanager:latest"  // image name
+    }
+
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/salmannsharif/User-Profile-Manager.git  '
+                git 'https://github.com/salmannsharif/User-Profile-Manager.git'
             }
         }
+
         stage('Build') {
             steps {
                 bat "mvn clean package -DskipTests"
             }
-            post {
-                success {
-                    archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    bat "docker build -t %DOCKER_IMAGE% ."
                 }
             }
         }
-        stage('Deploy') {
+
+        stage('Run Docker Container') {
             steps {
-                echo 'Deploying Application to port 8081...'
-                // Step 1: Kill any existing process on port 8081
-                bat '''
-                echo Checking for existing process on port 8081...
-                for /f "tokens=5" %%a in ('netstat -ano ^| findstr :8081') do (
-                    echo Found process on port 8081 with PID=%%a
-                    taskkill /PID %%a /F
-                )
-                echo No running process found on port 8081 or already stopped.
-                '''
-                // Step 2: Start Spring Boot app (foreground, so logs are visible)
-                bat '''
-                cd target
-                echo Starting Spring Boot Application...
-                java -jar UserProfileManager-0.0.1-SNAPSHOT.jar --server.port=8081
-                '''
+                script {
+                    // Stop old container if running
+                    bat '''
+                    docker ps -q --filter "name=userprofilemanager" | findstr . && docker stop userprofilemanager && docker rm userprofilemanager
+                    '''
+
+                    // Run new container
+                    bat "docker run -d --name userprofilemanager -p 8081:8081 %DOCKER_IMAGE%"
+                }
             }
         }
     }
+
     post {
         success {
-            echo "✅ Pipeline succeeded! Application should be running on port 8081."
+            echo "✅ Pipeline succeeded! Application running inside Docker on port 8081."
         }
         failure {
-            echo "❌ Pipeline failed. Check logs above for details."
+            echo "❌ Pipeline failed. Check logs."
         }
         always {
             echo "Pipeline execution completed."
